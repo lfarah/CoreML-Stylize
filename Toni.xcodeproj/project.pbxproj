@@ -16,7 +16,6 @@
 		A203F36820FE8639007FE231 /* ToniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203F36720FE8639007FE231 /* ToniTests.swift */; };
 		A203F37320FE8639007FE231 /* ToniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203F37220FE8639007FE231 /* ToniUITests.swift */; };
 		A24463BC2108B1BF00D9EA7B /* stylize.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A24463BB2108B1BF00D9EA7B /* stylize.mlmodel */; };
-		A2E4E7A7210F7B850050EA7F /* Dias2.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E4E7A6210F7B840050EA7F /* Dias2.png */; };
 		B39ADBD345E21A8DFF86B6A5 /* Pods_ToniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5ABB4B3410B274103898215 /* Pods_ToniUITests.framework */; };
 		C29875992101243D007C46A5 /* FNSScream.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C29875962101243C007C46A5 /* FNSScream.mlmodel */; };
 		C298759A2101243D007C46A5 /* FNSLaMuse.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C29875972101243C007C46A5 /* FNSLaMuse.mlmodel */; };
@@ -71,7 +70,6 @@
 		A203F37220FE8639007FE231 /* ToniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToniUITests.swift; sourceTree = "<group>"; };
 		A203F37420FE8639007FE231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24463BB2108B1BF00D9EA7B /* stylize.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = stylize.mlmodel; path = CoreMLHelpers/stylize.mlmodel; sourceTree = "<group>"; };
-		A2E4E7A6210F7B840050EA7F /* Dias2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dias2.png; sourceTree = "<group>"; };
 		C29875962101243C007C46A5 /* FNSScream.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSScream.mlmodel; sourceTree = "<group>"; };
 		C29875972101243C007C46A5 /* FNSLaMuse.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSLaMuse.mlmodel; sourceTree = "<group>"; };
 		C29875982101243D007C46A5 /* FNSCandy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FNSCandy.mlmodel; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				C298759E2101247B007C46A5 /* Extensions.swift */,
 				A203F35620FE8635007FE231 /* Main.storyboard */,
 				A203F35920FE8638007FE231 /* Assets.xcassets */,
-				A2E4E7A6210F7B840050EA7F /* Dias2.png */,
 				A203F35B20FE8638007FE231 /* LaunchScreen.storyboard */,
 				A203F35E20FE8638007FE231 /* Info.plist */,
 			);
@@ -329,7 +326,6 @@
 				C29875A121012608007C46A5 /* Dias.png in Resources */,
 				A203F35D20FE8638007FE231 /* LaunchScreen.storyboard in Resources */,
 				A203F35A20FE8638007FE231 /* Assets.xcassets in Resources */,
-				A2E4E7A7210F7B850050EA7F /* Dias2.png in Resources */,
 				A203F35820FE8635007FE231 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
