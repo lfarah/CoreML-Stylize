@@ -1,0 +1,1108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0460BC2D3C9D6CA1759AA48639EC89D5 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F7A6C8E2006F5F3EC65FB79A756997 /* UIApplicationExtensions.swift */; };
+		06E907D1DCA660A37B7C46374B050ACA /* UISliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A89698BFAB00B1364B048D93D23DD5 /* UISliderExtensions.swift */; };
+		0B18DA33B43B08A6656F59691756E074 /* UISwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC550EA4ECBD29BBDD4CF943E50CF35 /* UISwitchExtensions.swift */; };
+		0D4B17368E4652700805444DADCB2C43 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E0365D41F5AFFFC1D471AE5717D15A /* CGRectExtensions.swift */; };
+		0D4C1A3815C4EDE2692A570389D1C898 /* UIUserInterfaceSizeClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1F403BF40B7AA0F4F9804C6CFB945 /* UIUserInterfaceSizeClassExtensions.swift */; };
+		0E60F6274B737849D140B7440DA8AA47 /* EZSwiftExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B53EBBC76DAA7F2EFD7A1F3602482E /* EZSwiftExtensions-dummy.m */; };
+		15DFAD4B8F6FF499D2033639B908B61F /* EZSwiftExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 278D485E930A93A2F65C77FE2BE82735 /* EZSwiftExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18285583EA71153D5DBE1BBD92B2DA86 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545F7A83C4EAD82FD1BA47A6ACC3CEF1 /* DateExtensions.swift */; };
+		1BE67A368D730F58741BA94A9A0A455C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		22ABC03FF6A038D6A540FE1BD9058AFD /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC23CCAC0E2862D97FBDF3075171B43 /* UIDeviceExtensions.swift */; };
+		278CA317FC065BD7A9BD06C0153ECDC6 /* TimerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6FD15B51D4FDFAF9F3F2C3A3EBA313 /* TimerExtensions.swift */; };
+		2F7C027F59B7960F7966891616112FA1 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE213A2D9A4F666A444B661618D4DED /* UIColorExtensions.swift */; };
+		307AA4695CEBCBF06575EEF7A8A08A7A /* Pods-ToniUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CA889ECFC209B1164AA2452B90D4EA /* Pods-ToniUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C7CCCA03E3CE8812F512BCD288CB4F /* UIColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A124464D578EEEF11713CA56C7C6E919 /* UIColoredView.swift */; };
+		3F4500473E864920967771269B6BB2D0 /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319219B96F83EAFA9452A8E1EF7EB6BC /* UIAlertControllerExtensions.swift */; };
+		407A95F5ADD500ACBD4705305D9A74A9 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C8F6C9F80F0EEEF3FA5509EFB21A3C /* NSObjectExtensions.swift */; };
+		472C47F8E8DD8931E5C90799D55EF510 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BDF71FF18171CB5E0A3E71E24650A /* IntExtensions.swift */; };
+		4A1455CD75BA4B53C312ABB1A37EBAE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C6F7780F9EE0F9F3FF256D3528BC55A /* Pods-Toni-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9B00AC9FC4E88FCD336A29311EA37B /* Pods-Toni-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		537681BD2BB688A2F6DCBE9058CFFB74 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B7442DC7ACDF8E18F59CF6DD89C5C /* UIFontExtensions.swift */; };
+		548A24EA4A32F109DBE93186D86C2AB7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDCFB3D0BBB76A075E715A839BFA857 /* UIViewControllerExtensions.swift */; };
+		57CF1EA93325FAC1D256D491AF669980 /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EE122D4309891AA889D7694D87D380 /* UIStoryboardExtensions.swift */; };
+		6431FD3CEE3B2340CD824BA7A976DC5A /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A063649D5DF26C8C7211E1874743DAA /* UIImageExtensions.swift */; };
+		64922B2A36FC8E1FFA6E82F2D41A4238 /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A92B34210061B527A5C9B25717D94E7 /* BlockSwipe.swift */; };
+		67095DF2E1E1199F53F737271AEA0171 /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735B51E9C264AF1BDBA15B40E1A1EB24 /* BlockLongPress.swift */; };
+		6E49E83AA5C01E4DCC57050E8689462F /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8A06FCDF4DC49EE8069298549A24B /* UIViewExtensions.swift */; };
+		6F996943FB1BEF164613EA170B94C591 /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4D7ED6C6B4F28F744229994BA589C4 /* UserDefaultsExtension.swift */; };
+		7011206092CCED253D54513D5F44566C /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367753B823E8B9C98FD8654BD2C1156A /* NSAttributedStringExtensions.swift */; };
+		705BBA22082B0AEEB519F012D5AD6F10 /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EDA81B9162FAD59669322D126C4207 /* NSDictionaryExtensions.swift */; };
+		7A130DF697F596F49AA12CDC7048EDB7 /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AE5B7AB7F77B564CCBD1A3CB39D1D6 /* UITextViewExtensions.swift */; };
+		80FA356482E77A8F3E05563CD018C01A /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE616C87F138AA9E451035CB3E91E73 /* UIWindowExtensions.swift */; };
+		85463B02B418CA2D14FA519109293F57 /* Pods-ToniUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBACD648A59BFE7DE04A78F8AFA416D9 /* Pods-ToniUITests-dummy.m */; };
+		8972308F0C750A9B26133592824ABF33 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CA6381517650CF115FE63B3F1053F6 /* CGPointExtensions.swift */; };
+		9201988DD41F6388AB7362FEB89308F3 /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3F12A144B4D25EA767AC6D2F76915 /* BlockWebView.swift */; };
+		9237582CCD7A48D5F08BAD64B4C9A9B1 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09892ED964F01E28D82886112A532202 /* UIImageViewExtensions.swift */; };
+		93AA3BA91D0B97A793BCB3876109C309 /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA8B0CBBAAE8FECB3D318C60687AD91 /* UIBarButtonItemExtensions.swift */; };
+		955E31D050322FF7A7708FE9893B8B15 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529800BEAB53E150DD38C4A70FD9EA78 /* URLExtensions.swift */; };
+		97CD6BF3ED5FCD0DB5E459FA156DF35B /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDCD7998306D66744AA00C51A6A6B2F /* DoubleExtensions.swift */; };
+		9B9EF147A03ED1331C054BA667EF2863 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041917A75F43BF9C1728C61CA8F6B4B /* UITextFieldExtensions.swift */; };
+		A71A500426446E319A8EB60BF4DCF867 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CF24DFAE6A2B66A425F5A18A54F906 /* DictionaryExtensions.swift */; };
+		A753187517BC0DACDEC6646F70A0C34A /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD21C66CDA31F75851AD3836518B10 /* CGFloatExtensions.swift */; };
+		AA0AFB47B03BEF4E2164F487C40484F3 /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD506A08F5D393BC5C9840197807FB /* BlockPan.swift */; };
+		AC16E96BFA7CE7C936EF1370E9E527A7 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F318E127CDEF5CAA77AAB4768735060 /* UIButtonExtensions.swift */; };
+		ADF7FC389CBE860D333E86480F056079 /* ErrorTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66D694D38DBFEAED8D9179B2E7B47B5 /* ErrorTypeExtensions.swift */; };
+		AEF0477BA98E0D0AA95A906792C5BB52 /* Pods-ToniTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F5B3440F9C1B16060EB7C24A5FD3DD /* Pods-ToniTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1A8D83283AAF0E2825F292F6D4B589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0D067B4E0043CA968B13678394F7F43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C016CA7510FEFEB5680B3DED7602206C /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D25CEE78A37E67D8220207349D4C4 /* CharacterExtensions.swift */; };
+		C3F57B207100229CF6B7342340AFEA86 /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CC31AB626F564EF753AF4E24C6D82D /* BlockButton.swift */; };
+		C947019EA8FED7553B28F1D813DA8997 /* Pods-Toni-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 786CA746153606B972C95A43C6DABF79 /* Pods-Toni-dummy.m */; };
+		CA39396C08E723D2CF7D8A2B3DFC3E88 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F9C2E04477CD63007628E3B39E46DA /* ArrayExtensions.swift */; };
+		CBD233222B2A50244E87307387B7DCD6 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE245E2C0E89A5AA749A4E928E80A2B7 /* UIEdgeInsets.swift */; };
+		CD3C02EF9A0F0DE7052A4F369C79FEC2 /* CollectionsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136397E408564EB09975AEE785ACE90 /* CollectionsExtension.swift */; };
+		CE2CBB2F38ADC1CCF982EEEF4263865C /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16330E41C8A1AD5CF0B86EDC08BE02F1 /* FileManagerExtension.swift */; };
+		D06074C737A73640B14C02BBA643C3F8 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA67EA6B6F9FCDC75459BFE3A019861A /* BoolExtensions.swift */; };
+		D4FCD14DC08E0E326F45DE447B9CC7BF /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684BF3C80DE6D51B38488C9038DDDC54 /* BlockTap.swift */; };
+		E40817AECA04A546FE127B0F4C053B52 /* EZSwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1E933163E0337850C7A2466229AC9 /* EZSwiftFunctions.swift */; };
+		E54566B79CC3035B5410CCC6F1951646 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64414CC9A12FDD8DBAB52387DC31017 /* BundleExtensions.swift */; };
+		EE771CC549D787247D540E417ED93D9A /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D368D7D347AAD952C6AEA236160352FF /* UILabelExtensions.swift */; };
+		F18F0021DEBFADF64DFF18A87CBA2FAB /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EBBA3F6A0771B930C15D02C1DA3DE5 /* FloatingPointExtensions.swift */; };
+		F5C17AEC01F2D14E66956812EE699FCD /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05445704A1E1BAD90D30CE9C35B3EF0A /* BlockPinch.swift */; };
+		F692712418178A62BA44CFA297E84D1B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831C4F78E54CD69CC849A76B0316991 /* StringExtensions.swift */; };
+		FA0D486EE4E7E4BD45B5478A123CDA84 /* Pods-ToniTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A7A03F56E2DFA2F07642D0E06493EF /* Pods-ToniTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60F5CCCE096D2F3970298E84007505C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60171E7637B43017B9FA1240FA48F61;
+			remoteInfo = "Pods-Toni";
+		};
+		BE70ECFBC00097B4A43729AA582CFF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60171E7637B43017B9FA1240FA48F61;
+			remoteInfo = "Pods-Toni";
+		};
+		BFC30AEEF2C3D7A96865636CA2D3FDD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B275BF6168E38703261D48966BA1BA;
+			remoteInfo = EZSwiftExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003D25CEE78A37E67D8220207349D4C4 /* CharacterExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExtensions.swift; path = Sources/CharacterExtensions.swift; sourceTree = "<group>"; };
+		01AE5B7AB7F77B564CCBD1A3CB39D1D6 /* UITextViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextViewExtensions.swift; path = Sources/UITextViewExtensions.swift; sourceTree = "<group>"; };
+		05445704A1E1BAD90D30CE9C35B3EF0A /* BlockPinch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPinch.swift; path = Sources/BlockPinch.swift; sourceTree = "<group>"; };
+		06A1F403BF40B7AA0F4F9804C6CFB945 /* UIUserInterfaceSizeClassExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIUserInterfaceSizeClassExtensions.swift; path = Sources/UIUserInterfaceSizeClassExtensions.swift; sourceTree = "<group>"; };
+		0935A2CB8D4529EAC0FB536BED9AF173 /* Pods-Toni-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Toni-resources.sh"; sourceTree = "<group>"; };
+		09892ED964F01E28D82886112A532202 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtensions.swift; path = Sources/UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		09A3F12A144B4D25EA767AC6D2F76915 /* BlockWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockWebView.swift; path = Sources/BlockWebView.swift; sourceTree = "<group>"; };
+		0F318E127CDEF5CAA77AAB4768735060 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = Sources/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		15DC9E12FC41F39085568CA56E205D19 /* Pods-ToniUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToniUITests-resources.sh"; sourceTree = "<group>"; };
+		16330E41C8A1AD5CF0B86EDC08BE02F1 /* FileManagerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileManagerExtension.swift; path = Sources/FileManagerExtension.swift; sourceTree = "<group>"; };
+		17CA6381517650CF115FE63B3F1053F6 /* CGPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtensions.swift; path = Sources/CGPointExtensions.swift; sourceTree = "<group>"; };
+		17EBBA3F6A0771B930C15D02C1DA3DE5 /* FloatingPointExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatingPointExtensions.swift; path = Sources/FloatingPointExtensions.swift; sourceTree = "<group>"; };
+		1831C4F78E54CD69CC849A76B0316991 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/StringExtensions.swift; sourceTree = "<group>"; };
+		19EDA81B9162FAD59669322D126C4207 /* NSDictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDictionaryExtensions.swift; path = Sources/NSDictionaryExtensions.swift; sourceTree = "<group>"; };
+		1A92B34210061B527A5C9B25717D94E7 /* BlockSwipe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockSwipe.swift; path = Sources/BlockSwipe.swift; sourceTree = "<group>"; };
+		2206150AF54D857FC39CF05B499BF850 /* Pods-ToniTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToniTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		262EE6705493EA990BF555E1C3E9F659 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278D485E930A93A2F65C77FE2BE82735 /* EZSwiftExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-umbrella.h"; sourceTree = "<group>"; };
+		2CFD506A08F5D393BC5C9840197807FB /* BlockPan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockPan.swift; path = Sources/BlockPan.swift; sourceTree = "<group>"; };
+		319219B96F83EAFA9452A8E1EF7EB6BC /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtensions.swift; path = Sources/UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
+		326D0F6E4190528FD488BF823D074ACB /* Pods-ToniTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToniTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		367753B823E8B9C98FD8654BD2C1156A /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSAttributedStringExtensions.swift; path = Sources/NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		38F582CBEF0E3205ED8B858EBEF07999 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE8A06FCDF4DC49EE8069298549A24B /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/UIViewExtensions.swift; sourceTree = "<group>"; };
+		3D69DE73F2ADDD4DC27CA83DAB84A760 /* Pods-ToniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E9B00AC9FC4E88FCD336A29311EA37B /* Pods-Toni-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Toni-umbrella.h"; sourceTree = "<group>"; };
+		424D4CBA9E89527608ECCBFA1ED97F7B /* Pods_ToniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToniUITests.framework; path = "Pods-ToniUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0409B05503148DDEF77AF26EFA2095 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1BE8F3A4A2FBD5FEC0C91EFBAD34F7 /* Pods-Toni-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Toni-acknowledgements.plist"; sourceTree = "<group>"; };
+		50F5B3440F9C1B16060EB7C24A5FD3DD /* Pods-ToniTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToniTests-umbrella.h"; sourceTree = "<group>"; };
+		529800BEAB53E150DD38C4A70FD9EA78 /* URLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtensions.swift; path = Sources/URLExtensions.swift; sourceTree = "<group>"; };
+		545F7A83C4EAD82FD1BA47A6ACC3CEF1 /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = Sources/DateExtensions.swift; sourceTree = "<group>"; };
+		5584D383BAB11C2E5B10CEB4C224D6F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5687B31C4B5D77164853B2C3F30A59D5 /* Pods-ToniUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToniUITests.modulemap"; sourceTree = "<group>"; };
+		58722942D2734F869BD7EB770063AF9E /* Pods-ToniUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToniUITests-frameworks.sh"; sourceTree = "<group>"; };
+		599B43E422845C8EC951AA56C2D91861 /* Pods-ToniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6FD15B51D4FDFAF9F3F2C3A3EBA313 /* TimerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerExtensions.swift; path = Sources/TimerExtensions.swift; sourceTree = "<group>"; };
+		5D1A412BC5F7D51E7AA919A2040CFD2A /* Pods-ToniUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToniUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		638BDF71FF18171CB5E0A3E71E24650A /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Sources/IntExtensions.swift; sourceTree = "<group>"; };
+		6559A40676887BEC8669644AEAFB350D /* Pods-Toni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toni.debug.xcconfig"; sourceTree = "<group>"; };
+		65C8F6C9F80F0EEEF3FA5509EFB21A3C /* NSObjectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtensions.swift; path = Sources/NSObjectExtensions.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B53EBBC76DAA7F2EFD7A1F3602482E /* EZSwiftExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZSwiftExtensions-dummy.m"; sourceTree = "<group>"; };
+		684BF3C80DE6D51B38488C9038DDDC54 /* BlockTap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockTap.swift; path = Sources/BlockTap.swift; sourceTree = "<group>"; };
+		6A4D7ED6C6B4F28F744229994BA589C4 /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserDefaultsExtension.swift; path = Sources/UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		735B51E9C264AF1BDBA15B40E1A1EB24 /* BlockLongPress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockLongPress.swift; path = Sources/BlockLongPress.swift; sourceTree = "<group>"; };
+		77AD21C66CDA31F75851AD3836518B10 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = Sources/CGFloatExtensions.swift; sourceTree = "<group>"; };
+		786CA746153606B972C95A43C6DABF79 /* Pods-Toni-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Toni-dummy.m"; sourceTree = "<group>"; };
+		78FBA4935714013DF0FCAE1A7A347160 /* Pods_Toni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Toni.framework; path = "Pods-Toni.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDCD7998306D66744AA00C51A6A6B2F /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Sources/DoubleExtensions.swift; sourceTree = "<group>"; };
+		7E6AA627FC10716AFD8FE0599DFD5236 /* EZSwiftExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZSwiftExtensions.xcconfig; sourceTree = "<group>"; };
+		801B7442DC7ACDF8E18F59CF6DD89C5C /* UIFontExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIFontExtensions.swift; path = Sources/UIFontExtensions.swift; sourceTree = "<group>"; };
+		802C77F78718425B5633A7DCFDF46004 /* Pods-Toni-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Toni-frameworks.sh"; sourceTree = "<group>"; };
+		8041917A75F43BF9C1728C61CA8F6B4B /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITextFieldExtensions.swift; path = Sources/UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		8478618F1932C05D9E0E028802FCDD18 /* Pods-ToniTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToniTests-resources.sh"; sourceTree = "<group>"; };
+		89CA889ECFC209B1164AA2452B90D4EA /* Pods-ToniUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToniUITests-umbrella.h"; sourceTree = "<group>"; };
+		8A063649D5DF26C8C7211E1874743DAA /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/UIImageExtensions.swift; sourceTree = "<group>"; };
+		8AC550EA4ECBD29BBDD4CF943E50CF35 /* UISwitchExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISwitchExtensions.swift; path = Sources/UISwitchExtensions.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A7A03F56E2DFA2F07642D0E06493EF /* Pods-ToniTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToniTests-dummy.m"; sourceTree = "<group>"; };
+		9CE616C87F138AA9E451035CB3E91E73 /* UIWindowExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIWindowExtensions.swift; path = Sources/UIWindowExtensions.swift; sourceTree = "<group>"; };
+		9DC23CCAC0E2862D97FBDF3075171B43 /* UIDeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIDeviceExtensions.swift; path = Sources/UIDeviceExtensions.swift; sourceTree = "<group>"; };
+		9FA1E933163E0337850C7A2466229AC9 /* EZSwiftFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EZSwiftFunctions.swift; path = Sources/EZSwiftFunctions.swift; sourceTree = "<group>"; };
+		A0CF24DFAE6A2B66A425F5A18A54F906 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = Sources/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		A124464D578EEEF11713CA56C7C6E919 /* UIColoredView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColoredView.swift; path = Sources/UIColoredView.swift; sourceTree = "<group>"; };
+		A2EFCF1F96E22A9C95859F561734A392 /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZSwiftExtensions.framework; path = EZSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A840D06088A1590B2CD2047CE1CF600A /* Pods-ToniTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToniTests.modulemap"; sourceTree = "<group>"; };
+		A9E0365D41F5AFFFC1D471AE5717D15A /* CGRectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtensions.swift; path = Sources/CGRectExtensions.swift; sourceTree = "<group>"; };
+		AE245E2C0E89A5AA749A4E928E80A2B7 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Sources/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		B136397E408564EB09975AEE785ACE90 /* CollectionsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionsExtension.swift; path = Sources/CollectionsExtension.swift; sourceTree = "<group>"; };
+		B51F82738FC1AD2E7CBD89D0E890A5A9 /* EZSwiftExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZSwiftExtensions-prefix.pch"; sourceTree = "<group>"; };
+		B8F9C2E04477CD63007628E3B39E46DA /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Sources/ArrayExtensions.swift; sourceTree = "<group>"; };
+		BF3E942060A028EC3676FB656A3661D1 /* Pods-ToniUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToniUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C13BED18432B2BFF7DDC8F3C71223376 /* EZSwiftExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EZSwiftExtensions.modulemap; sourceTree = "<group>"; };
+		C64414CC9A12FDD8DBAB52387DC31017 /* BundleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundleExtensions.swift; path = Sources/BundleExtensions.swift; sourceTree = "<group>"; };
+		CBACD648A59BFE7DE04A78F8AFA416D9 /* Pods-ToniUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToniUITests-dummy.m"; sourceTree = "<group>"; };
+		D368D7D347AAD952C6AEA236160352FF /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = Sources/UILabelExtensions.swift; sourceTree = "<group>"; };
+		D4F1BB8EA95BD2B5786C32B06977452E /* Pods-Toni-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Toni-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5817C0395470B157777851F39727816 /* Pods_ToniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToniTests.framework; path = "Pods-ToniTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66D694D38DBFEAED8D9179B2E7B47B5 /* ErrorTypeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorTypeExtensions.swift; path = Sources/ErrorTypeExtensions.swift; sourceTree = "<group>"; };
+		DCE213A2D9A4F666A444B661618D4DED /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = Sources/UIColorExtensions.swift; sourceTree = "<group>"; };
+		DE50EA439D8FEF85B08C2E21FE405EC9 /* Pods-Toni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Toni.release.xcconfig"; sourceTree = "<group>"; };
+		E0CC31AB626F564EF753AF4E24C6D82D /* BlockButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockButton.swift; path = Sources/BlockButton.swift; sourceTree = "<group>"; };
+		E6A89698BFAB00B1364B048D93D23DD5 /* UISliderExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISliderExtensions.swift; path = Sources/UISliderExtensions.swift; sourceTree = "<group>"; };
+		E7EE122D4309891AA889D7694D87D380 /* UIStoryboardExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStoryboardExtensions.swift; path = Sources/UIStoryboardExtensions.swift; sourceTree = "<group>"; };
+		E9F7A6C8E2006F5F3EC65FB79A756997 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplicationExtensions.swift; path = Sources/UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		EA67EA6B6F9FCDC75459BFE3A019861A /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = Sources/BoolExtensions.swift; sourceTree = "<group>"; };
+		EBFE0785C9DAFD117064A973AD7C11BD /* Pods-ToniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToniTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEA8B0CBBAAE8FECB3D318C60687AD91 /* UIBarButtonItemExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBarButtonItemExtensions.swift; path = Sources/UIBarButtonItemExtensions.swift; sourceTree = "<group>"; };
+		EEDCFB3D0BBB76A075E715A839BFA857 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Sources/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		F008AFC4E1FFBB7D69E89E032CC98C45 /* Pods-Toni.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Toni.modulemap"; sourceTree = "<group>"; };
+		F54FFC9D7FB199DFB6A0482EFB400A24 /* Pods-ToniTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToniTests-frameworks.sh"; sourceTree = "<group>"; };
+		FFD61561DC4944923CD1744838429AA5 /* Pods-ToniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToniTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1144E76BE1BDB6CDA29AF01FC1032AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE67A368D730F58741BA94A9A0A455C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		270B8EB783C9C40830990DE2091230F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1455CD75BA4B53C312ABB1A37EBAE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AD91AF1F38CAC6AA5F57B5FC4EF7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1A8D83283AAF0E2825F292F6D4B589 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8362D916C4EE1C1B4E1E7AA0ECA535BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D067B4E0043CA968B13678394F7F43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E9A76112DC3E731A45466422FBCC65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4207410BEA46C844206616EE6A7DA39 /* Pods-Toni */,
+				FF4C9BEDA72BE78F6C2DE2BF9ADB67AC /* Pods-ToniTests */,
+				518FE00B934DC2038527AFAB8D4A4D1B /* Pods-ToniUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4A5735AE4F7F303B4C4E492F8E5FD716 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13BED18432B2BFF7DDC8F3C71223376 /* EZSwiftExtensions.modulemap */,
+				7E6AA627FC10716AFD8FE0599DFD5236 /* EZSwiftExtensions.xcconfig */,
+				66B53EBBC76DAA7F2EFD7A1F3602482E /* EZSwiftExtensions-dummy.m */,
+				B51F82738FC1AD2E7CBD89D0E890A5A9 /* EZSwiftExtensions-prefix.pch */,
+				278D485E930A93A2F65C77FE2BE82735 /* EZSwiftExtensions-umbrella.h */,
+				4C0409B05503148DDEF77AF26EFA2095 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EZSwiftExtensions";
+			sourceTree = "<group>";
+		};
+		518FE00B934DC2038527AFAB8D4A4D1B /* Pods-ToniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				262EE6705493EA990BF555E1C3E9F659 /* Info.plist */,
+				5687B31C4B5D77164853B2C3F30A59D5 /* Pods-ToniUITests.modulemap */,
+				5D1A412BC5F7D51E7AA919A2040CFD2A /* Pods-ToniUITests-acknowledgements.markdown */,
+				BF3E942060A028EC3676FB656A3661D1 /* Pods-ToniUITests-acknowledgements.plist */,
+				CBACD648A59BFE7DE04A78F8AFA416D9 /* Pods-ToniUITests-dummy.m */,
+				58722942D2734F869BD7EB770063AF9E /* Pods-ToniUITests-frameworks.sh */,
+				15DC9E12FC41F39085568CA56E205D19 /* Pods-ToniUITests-resources.sh */,
+				89CA889ECFC209B1164AA2452B90D4EA /* Pods-ToniUITests-umbrella.h */,
+				599B43E422845C8EC951AA56C2D91861 /* Pods-ToniUITests.debug.xcconfig */,
+				3D69DE73F2ADDD4DC27CA83DAB84A760 /* Pods-ToniUITests.release.xcconfig */,
+			);
+			name = "Pods-ToniUITests";
+			path = "Target Support Files/Pods-ToniUITests";
+			sourceTree = "<group>";
+		};
+		5319517928B1D5B5370D546B88010967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EFCF1F96E22A9C95859F561734A392 /* EZSwiftExtensions.framework */,
+				78FBA4935714013DF0FCAE1A7A347160 /* Pods_Toni.framework */,
+				D5817C0395470B157777851F39727816 /* Pods_ToniTests.framework */,
+				424D4CBA9E89527608ECCBFA1ED97F7B /* Pods_ToniUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E5554340CFF6F808DFAC9D63C2B6A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4A018F20F44579F6F6A129D10852C /* EZSwiftExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				78E5554340CFF6F808DFAC9D63C2B6A4 /* Pods */,
+				5319517928B1D5B5370D546B88010967 /* Products */,
+				33E9A76112DC3E731A45466422FBCC65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D4A018F20F44579F6F6A129D10852C /* EZSwiftExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				B8F9C2E04477CD63007628E3B39E46DA /* ArrayExtensions.swift */,
+				E0CC31AB626F564EF753AF4E24C6D82D /* BlockButton.swift */,
+				735B51E9C264AF1BDBA15B40E1A1EB24 /* BlockLongPress.swift */,
+				2CFD506A08F5D393BC5C9840197807FB /* BlockPan.swift */,
+				05445704A1E1BAD90D30CE9C35B3EF0A /* BlockPinch.swift */,
+				1A92B34210061B527A5C9B25717D94E7 /* BlockSwipe.swift */,
+				684BF3C80DE6D51B38488C9038DDDC54 /* BlockTap.swift */,
+				09A3F12A144B4D25EA767AC6D2F76915 /* BlockWebView.swift */,
+				EA67EA6B6F9FCDC75459BFE3A019861A /* BoolExtensions.swift */,
+				C64414CC9A12FDD8DBAB52387DC31017 /* BundleExtensions.swift */,
+				77AD21C66CDA31F75851AD3836518B10 /* CGFloatExtensions.swift */,
+				17CA6381517650CF115FE63B3F1053F6 /* CGPointExtensions.swift */,
+				A9E0365D41F5AFFFC1D471AE5717D15A /* CGRectExtensions.swift */,
+				003D25CEE78A37E67D8220207349D4C4 /* CharacterExtensions.swift */,
+				B136397E408564EB09975AEE785ACE90 /* CollectionsExtension.swift */,
+				545F7A83C4EAD82FD1BA47A6ACC3CEF1 /* DateExtensions.swift */,
+				A0CF24DFAE6A2B66A425F5A18A54F906 /* DictionaryExtensions.swift */,
+				7DDCD7998306D66744AA00C51A6A6B2F /* DoubleExtensions.swift */,
+				D66D694D38DBFEAED8D9179B2E7B47B5 /* ErrorTypeExtensions.swift */,
+				9FA1E933163E0337850C7A2466229AC9 /* EZSwiftFunctions.swift */,
+				16330E41C8A1AD5CF0B86EDC08BE02F1 /* FileManagerExtension.swift */,
+				17EBBA3F6A0771B930C15D02C1DA3DE5 /* FloatingPointExtensions.swift */,
+				638BDF71FF18171CB5E0A3E71E24650A /* IntExtensions.swift */,
+				367753B823E8B9C98FD8654BD2C1156A /* NSAttributedStringExtensions.swift */,
+				19EDA81B9162FAD59669322D126C4207 /* NSDictionaryExtensions.swift */,
+				65C8F6C9F80F0EEEF3FA5509EFB21A3C /* NSObjectExtensions.swift */,
+				1831C4F78E54CD69CC849A76B0316991 /* StringExtensions.swift */,
+				5C6FD15B51D4FDFAF9F3F2C3A3EBA313 /* TimerExtensions.swift */,
+				319219B96F83EAFA9452A8E1EF7EB6BC /* UIAlertControllerExtensions.swift */,
+				E9F7A6C8E2006F5F3EC65FB79A756997 /* UIApplicationExtensions.swift */,
+				EEA8B0CBBAAE8FECB3D318C60687AD91 /* UIBarButtonItemExtensions.swift */,
+				0F318E127CDEF5CAA77AAB4768735060 /* UIButtonExtensions.swift */,
+				A124464D578EEEF11713CA56C7C6E919 /* UIColoredView.swift */,
+				DCE213A2D9A4F666A444B661618D4DED /* UIColorExtensions.swift */,
+				9DC23CCAC0E2862D97FBDF3075171B43 /* UIDeviceExtensions.swift */,
+				AE245E2C0E89A5AA749A4E928E80A2B7 /* UIEdgeInsets.swift */,
+				801B7442DC7ACDF8E18F59CF6DD89C5C /* UIFontExtensions.swift */,
+				8A063649D5DF26C8C7211E1874743DAA /* UIImageExtensions.swift */,
+				09892ED964F01E28D82886112A532202 /* UIImageViewExtensions.swift */,
+				D368D7D347AAD952C6AEA236160352FF /* UILabelExtensions.swift */,
+				E6A89698BFAB00B1364B048D93D23DD5 /* UISliderExtensions.swift */,
+				E7EE122D4309891AA889D7694D87D380 /* UIStoryboardExtensions.swift */,
+				8AC550EA4ECBD29BBDD4CF943E50CF35 /* UISwitchExtensions.swift */,
+				8041917A75F43BF9C1728C61CA8F6B4B /* UITextFieldExtensions.swift */,
+				01AE5B7AB7F77B564CCBD1A3CB39D1D6 /* UITextViewExtensions.swift */,
+				06A1F403BF40B7AA0F4F9804C6CFB945 /* UIUserInterfaceSizeClassExtensions.swift */,
+				EEDCFB3D0BBB76A075E715A839BFA857 /* UIViewControllerExtensions.swift */,
+				3AE8A06FCDF4DC49EE8069298549A24B /* UIViewExtensions.swift */,
+				9CE616C87F138AA9E451035CB3E91E73 /* UIWindowExtensions.swift */,
+				529800BEAB53E150DD38C4A70FD9EA78 /* URLExtensions.swift */,
+				6A4D7ED6C6B4F28F744229994BA589C4 /* UserDefaultsExtension.swift */,
+				4A5735AE4F7F303B4C4E492F8E5FD716 /* Support Files */,
+			);
+			name = EZSwiftExtensions;
+			path = EZSwiftExtensions;
+			sourceTree = "<group>";
+		};
+		B4207410BEA46C844206616EE6A7DA39 /* Pods-Toni */ = {
+			isa = PBXGroup;
+			children = (
+				38F582CBEF0E3205ED8B858EBEF07999 /* Info.plist */,
+				F008AFC4E1FFBB7D69E89E032CC98C45 /* Pods-Toni.modulemap */,
+				D4F1BB8EA95BD2B5786C32B06977452E /* Pods-Toni-acknowledgements.markdown */,
+				4C1BE8F3A4A2FBD5FEC0C91EFBAD34F7 /* Pods-Toni-acknowledgements.plist */,
+				786CA746153606B972C95A43C6DABF79 /* Pods-Toni-dummy.m */,
+				802C77F78718425B5633A7DCFDF46004 /* Pods-Toni-frameworks.sh */,
+				0935A2CB8D4529EAC0FB536BED9AF173 /* Pods-Toni-resources.sh */,
+				3E9B00AC9FC4E88FCD336A29311EA37B /* Pods-Toni-umbrella.h */,
+				6559A40676887BEC8669644AEAFB350D /* Pods-Toni.debug.xcconfig */,
+				DE50EA439D8FEF85B08C2E21FE405EC9 /* Pods-Toni.release.xcconfig */,
+			);
+			name = "Pods-Toni";
+			path = "Target Support Files/Pods-Toni";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF4C9BEDA72BE78F6C2DE2BF9ADB67AC /* Pods-ToniTests */ = {
+			isa = PBXGroup;
+			children = (
+				5584D383BAB11C2E5B10CEB4C224D6F2 /* Info.plist */,
+				A840D06088A1590B2CD2047CE1CF600A /* Pods-ToniTests.modulemap */,
+				326D0F6E4190528FD488BF823D074ACB /* Pods-ToniTests-acknowledgements.markdown */,
+				2206150AF54D857FC39CF05B499BF850 /* Pods-ToniTests-acknowledgements.plist */,
+				94A7A03F56E2DFA2F07642D0E06493EF /* Pods-ToniTests-dummy.m */,
+				F54FFC9D7FB199DFB6A0482EFB400A24 /* Pods-ToniTests-frameworks.sh */,
+				8478618F1932C05D9E0E028802FCDD18 /* Pods-ToniTests-resources.sh */,
+				50F5B3440F9C1B16060EB7C24A5FD3DD /* Pods-ToniTests-umbrella.h */,
+				FFD61561DC4944923CD1744838429AA5 /* Pods-ToniTests.debug.xcconfig */,
+				EBFE0785C9DAFD117064A973AD7C11BD /* Pods-ToniTests.release.xcconfig */,
+			);
+			name = "Pods-ToniTests";
+			path = "Target Support Files/Pods-ToniTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17E2F2709EB4552FF26E0874E651E5EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307AA4695CEBCBF06575EEF7A8A08A7A /* Pods-ToniUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338EF7BFAF81D2C4EBA3ADA091A4FF71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF0477BA98E0D0AA95A906792C5BB52 /* Pods-ToniTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4B99B55E9BE51E137AC6CE8C85D994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6F7780F9EE0F9F3FF256D3528BC55A /* Pods-Toni-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9620F6433FF22814D4412E04E6A160BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DFAD4B8F6FF499D2033639B908B61F /* EZSwiftExtensions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57B275BF6168E38703261D48966BA1BA /* EZSwiftExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA10AE83B5A71921C4425F2A60A57CE /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */;
+			buildPhases = (
+				8F69B32708FD9B21DC4D8FB3FD3D3C2F /* Sources */,
+				8362D916C4EE1C1B4E1E7AA0ECA535BB /* Frameworks */,
+				9620F6433FF22814D4412E04E6A160BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZSwiftExtensions;
+			productName = EZSwiftExtensions;
+			productReference = A2EFCF1F96E22A9C95859F561734A392 /* EZSwiftExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD153C17CE4C5D3EF967E85EADA61878 /* Pods-ToniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FEED3C7D5BA8675E5E29FE51B31F88 /* Build configuration list for PBXNativeTarget "Pods-ToniTests" */;
+			buildPhases = (
+				64B17D3A2B4B0DB16BE0B2C020C182ED /* Sources */,
+				48AD91AF1F38CAC6AA5F57B5FC4EF7AD /* Frameworks */,
+				338EF7BFAF81D2C4EBA3ADA091A4FF71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62BC07CDA682ADC29996CA20EA804658 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToniTests";
+			productName = "Pods-ToniTests";
+			productReference = D5817C0395470B157777851F39727816 /* Pods_ToniTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFB33097226B6D5FD5E00CBEE9C57537 /* Pods-ToniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D68AAE8D94C8645AB7F3D0871D6E6F /* Build configuration list for PBXNativeTarget "Pods-ToniUITests" */;
+			buildPhases = (
+				B37CD88921D1DC2787718BF357D841DD /* Sources */,
+				1144E76BE1BDB6CDA29AF01FC1032AEA /* Frameworks */,
+				17E2F2709EB4552FF26E0874E651E5EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A82306017CD8999C22D75DC43E996A31 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToniUITests";
+			productName = "Pods-ToniUITests";
+			productReference = 424D4CBA9E89527608ECCBFA1ED97F7B /* Pods_ToniUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E60171E7637B43017B9FA1240FA48F61 /* Pods-Toni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B78E2428B4FA7CDB5C1EB40BAF9903 /* Build configuration list for PBXNativeTarget "Pods-Toni" */;
+			buildPhases = (
+				A883F8A0E7A33AA30FE32BD4CBC97614 /* Sources */,
+				270B8EB783C9C40830990DE2091230F0 /* Frameworks */,
+				6C4B99B55E9BE51E137AC6CE8C85D994 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AE4286A34CF89C12EE875773A2C18F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Toni";
+			productName = "Pods-Toni";
+			productReference = 78FBA4935714013DF0FCAE1A7A347160 /* Pods_Toni.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5319517928B1D5B5370D546B88010967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B275BF6168E38703261D48966BA1BA /* EZSwiftExtensions */,
+				E60171E7637B43017B9FA1240FA48F61 /* Pods-Toni */,
+				BD153C17CE4C5D3EF967E85EADA61878 /* Pods-ToniTests */,
+				BFB33097226B6D5FD5E00CBEE9C57537 /* Pods-ToniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B17D3A2B4B0DB16BE0B2C020C182ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0D486EE4E7E4BD45B5478A123CDA84 /* Pods-ToniTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F69B32708FD9B21DC4D8FB3FD3D3C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA39396C08E723D2CF7D8A2B3DFC3E88 /* ArrayExtensions.swift in Sources */,
+				C3F57B207100229CF6B7342340AFEA86 /* BlockButton.swift in Sources */,
+				67095DF2E1E1199F53F737271AEA0171 /* BlockLongPress.swift in Sources */,
+				AA0AFB47B03BEF4E2164F487C40484F3 /* BlockPan.swift in Sources */,
+				F5C17AEC01F2D14E66956812EE699FCD /* BlockPinch.swift in Sources */,
+				64922B2A36FC8E1FFA6E82F2D41A4238 /* BlockSwipe.swift in Sources */,
+				D4FCD14DC08E0E326F45DE447B9CC7BF /* BlockTap.swift in Sources */,
+				9201988DD41F6388AB7362FEB89308F3 /* BlockWebView.swift in Sources */,
+				D06074C737A73640B14C02BBA643C3F8 /* BoolExtensions.swift in Sources */,
+				E54566B79CC3035B5410CCC6F1951646 /* BundleExtensions.swift in Sources */,
+				A753187517BC0DACDEC6646F70A0C34A /* CGFloatExtensions.swift in Sources */,
+				8972308F0C750A9B26133592824ABF33 /* CGPointExtensions.swift in Sources */,
+				0D4B17368E4652700805444DADCB2C43 /* CGRectExtensions.swift in Sources */,
+				C016CA7510FEFEB5680B3DED7602206C /* CharacterExtensions.swift in Sources */,
+				CD3C02EF9A0F0DE7052A4F369C79FEC2 /* CollectionsExtension.swift in Sources */,
+				18285583EA71153D5DBE1BBD92B2DA86 /* DateExtensions.swift in Sources */,
+				A71A500426446E319A8EB60BF4DCF867 /* DictionaryExtensions.swift in Sources */,
+				97CD6BF3ED5FCD0DB5E459FA156DF35B /* DoubleExtensions.swift in Sources */,
+				ADF7FC389CBE860D333E86480F056079 /* ErrorTypeExtensions.swift in Sources */,
+				0E60F6274B737849D140B7440DA8AA47 /* EZSwiftExtensions-dummy.m in Sources */,
+				E40817AECA04A546FE127B0F4C053B52 /* EZSwiftFunctions.swift in Sources */,
+				CE2CBB2F38ADC1CCF982EEEF4263865C /* FileManagerExtension.swift in Sources */,
+				F18F0021DEBFADF64DFF18A87CBA2FAB /* FloatingPointExtensions.swift in Sources */,
+				472C47F8E8DD8931E5C90799D55EF510 /* IntExtensions.swift in Sources */,
+				7011206092CCED253D54513D5F44566C /* NSAttributedStringExtensions.swift in Sources */,
+				705BBA22082B0AEEB519F012D5AD6F10 /* NSDictionaryExtensions.swift in Sources */,
+				407A95F5ADD500ACBD4705305D9A74A9 /* NSObjectExtensions.swift in Sources */,
+				F692712418178A62BA44CFA297E84D1B /* StringExtensions.swift in Sources */,
+				278CA317FC065BD7A9BD06C0153ECDC6 /* TimerExtensions.swift in Sources */,
+				3F4500473E864920967771269B6BB2D0 /* UIAlertControllerExtensions.swift in Sources */,
+				0460BC2D3C9D6CA1759AA48639EC89D5 /* UIApplicationExtensions.swift in Sources */,
+				93AA3BA91D0B97A793BCB3876109C309 /* UIBarButtonItemExtensions.swift in Sources */,
+				AC16E96BFA7CE7C936EF1370E9E527A7 /* UIButtonExtensions.swift in Sources */,
+				36C7CCCA03E3CE8812F512BCD288CB4F /* UIColoredView.swift in Sources */,
+				2F7C027F59B7960F7966891616112FA1 /* UIColorExtensions.swift in Sources */,
+				22ABC03FF6A038D6A540FE1BD9058AFD /* UIDeviceExtensions.swift in Sources */,
+				CBD233222B2A50244E87307387B7DCD6 /* UIEdgeInsets.swift in Sources */,
+				537681BD2BB688A2F6DCBE9058CFFB74 /* UIFontExtensions.swift in Sources */,
+				6431FD3CEE3B2340CD824BA7A976DC5A /* UIImageExtensions.swift in Sources */,
+				9237582CCD7A48D5F08BAD64B4C9A9B1 /* UIImageViewExtensions.swift in Sources */,
+				EE771CC549D787247D540E417ED93D9A /* UILabelExtensions.swift in Sources */,
+				06E907D1DCA660A37B7C46374B050ACA /* UISliderExtensions.swift in Sources */,
+				57CF1EA93325FAC1D256D491AF669980 /* UIStoryboardExtensions.swift in Sources */,
+				0B18DA33B43B08A6656F59691756E074 /* UISwitchExtensions.swift in Sources */,
+				9B9EF147A03ED1331C054BA667EF2863 /* UITextFieldExtensions.swift in Sources */,
+				7A130DF697F596F49AA12CDC7048EDB7 /* UITextViewExtensions.swift in Sources */,
+				0D4C1A3815C4EDE2692A570389D1C898 /* UIUserInterfaceSizeClassExtensions.swift in Sources */,
+				548A24EA4A32F109DBE93186D86C2AB7 /* UIViewControllerExtensions.swift in Sources */,
+				6E49E83AA5C01E4DCC57050E8689462F /* UIViewExtensions.swift in Sources */,
+				80FA356482E77A8F3E05563CD018C01A /* UIWindowExtensions.swift in Sources */,
+				955E31D050322FF7A7708FE9893B8B15 /* URLExtensions.swift in Sources */,
+				6F996943FB1BEF164613EA170B94C591 /* UserDefaultsExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A883F8A0E7A33AA30FE32BD4CBC97614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C947019EA8FED7553B28F1D813DA8997 /* Pods-Toni-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37CD88921D1DC2787718BF357D841DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85463B02B418CA2D14FA519109293F57 /* Pods-ToniUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AE4286A34CF89C12EE875773A2C18F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZSwiftExtensions;
+			target = 57B275BF6168E38703261D48966BA1BA /* EZSwiftExtensions */;
+			targetProxy = BFC30AEEF2C3D7A96865636CA2D3FDD5 /* PBXContainerItemProxy */;
+		};
+		62BC07CDA682ADC29996CA20EA804658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Toni";
+			target = E60171E7637B43017B9FA1240FA48F61 /* Pods-Toni */;
+			targetProxy = 60F5CCCE096D2F3970298E84007505C6 /* PBXContainerItemProxy */;
+		};
+		A82306017CD8999C22D75DC43E996A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Toni";
+			target = E60171E7637B43017B9FA1240FA48F61 /* Pods-Toni */;
+			targetProxy = BE70ECFBC00097B4A43729AA582CFF99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0EC8D2FB61838C3F7EA852C2F3D6DE15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6AA627FC10716AFD8FE0599DFD5236 /* EZSwiftExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				PRODUCT_MODULE_NAME = EZSwiftExtensions;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13EF895FCEBCCC1AD9F0B197B9E70AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFE0785C9DAFD117064A973AD7C11BD /* Pods-ToniTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToniTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToniTests/Pods-ToniTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19D976890D333D8793DF173C17F52DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D69DE73F2ADDD4DC27CA83DAB84A760 /* Pods-ToniUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToniUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToniUITests/Pods-ToniUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DE8DA0C016C94F796842EA3FDCF1020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE50EA439D8FEF85B08C2E21FE405EC9 /* Pods-Toni.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Toni/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Toni/Pods-Toni.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52AFA758410FC1FF10C240ACBD8CAE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6AA627FC10716AFD8FE0599DFD5236 /* EZSwiftExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZSwiftExtensions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZSwiftExtensions/EZSwiftExtensions.modulemap";
+				PRODUCT_MODULE_NAME = EZSwiftExtensions;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3E784C0F79C42A779F17D7391EC82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 599B43E422845C8EC951AA56C2D91861 /* Pods-ToniUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToniUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToniUITests/Pods-ToniUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8EBA4B6AC3A495A121089C649C73ED0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6559A40676887BEC8669644AEAFB350D /* Pods-Toni.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Toni/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Toni/Pods-Toni.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF4279DAA32725C6EFEDADCD3AB42726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD61561DC4944923CD1744838429AA5 /* Pods-ToniTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToniTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToniTests/Pods-ToniTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FEED3C7D5BA8675E5E29FE51B31F88 /* Build configuration list for PBXNativeTarget "Pods-ToniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4279DAA32725C6EFEDADCD3AB42726 /* Debug */,
+				13EF895FCEBCCC1AD9F0B197B9E70AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA10AE83B5A71921C4425F2A60A57CE /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AFA758410FC1FF10C240ACBD8CAE9C /* Debug */,
+				0EC8D2FB61838C3F7EA852C2F3D6DE15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D68AAE8D94C8645AB7F3D0871D6E6F /* Build configuration list for PBXNativeTarget "Pods-ToniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3E784C0F79C42A779F17D7391EC82C /* Debug */,
+				19D976890D333D8793DF173C17F52DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B78E2428B4FA7CDB5C1EB40BAF9903 /* Build configuration list for PBXNativeTarget "Pods-Toni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBA4B6AC3A495A121089C649C73ED0E /* Debug */,
+				3DE8DA0C016C94F796842EA3FDCF1020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

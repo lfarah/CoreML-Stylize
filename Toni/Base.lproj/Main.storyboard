@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Artify View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ArtifyViewController" customModule="Toni" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7Ym-2O-aFD">
+                                <rect key="frame" x="20" y="120" width="335" height="335"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7Ym-2O-aFD" secondAttribute="height" id="J77-aG-VCR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YfA-a5-ZkP">
+                                <rect key="frame" x="161" y="470" width="52" height="30"/>
+                                <state key="normal" title="Scream"/>
+                                <connections>
+                                    <action selector="butStyleTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RhM-bN-L1I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUC-7T-Jgq">
+                                <rect key="frame" x="165" y="516" width="44" height="30"/>
+                                <state key="normal" title="Candy"/>
+                                <connections>
+                                    <action selector="butStyleCandyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IoC-EM-PKd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqF-UG-cg9">
+                                <rect key="frame" x="160" y="554" width="54" height="30"/>
+                                <state key="normal" title="LaMuse"/>
+                                <connections>
+                                    <action selector="butStyleLaMuseTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IuZ-ZV-Uzd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PUC-7T-Jgq" firstAttribute="top" secondItem="YfA-a5-ZkP" secondAttribute="bottom" constant="16" id="2HX-go-tWT"/>
+                            <constraint firstItem="rqF-UG-cg9" firstAttribute="top" secondItem="PUC-7T-Jgq" secondAttribute="bottom" constant="8" id="EZ9-F8-38y"/>
+                            <constraint firstItem="YfA-a5-ZkP" firstAttribute="centerX" secondItem="7Ym-2O-aFD" secondAttribute="centerX" id="PfU-8F-00g"/>
+                            <constraint firstItem="7Ym-2O-aFD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="UAv-LI-ANw"/>
+                            <constraint firstItem="PUC-7T-Jgq" firstAttribute="centerX" secondItem="YfA-a5-ZkP" secondAttribute="centerX" id="dAz-DQ-tKu"/>
+                            <constraint firstItem="rqF-UG-cg9" firstAttribute="centerX" secondItem="PUC-7T-Jgq" secondAttribute="centerX" id="glu-P4-iP5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Ym-2O-aFD" secondAttribute="trailing" constant="20" id="jMj-6u-N1X"/>
+                            <constraint firstItem="7Ym-2O-aFD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="maG-rD-CMC"/>
+                            <constraint firstItem="YfA-a5-ZkP" firstAttribute="top" secondItem="7Ym-2O-aFD" secondAttribute="bottom" constant="15" id="nwW-33-NaG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="butStyle" destination="YfA-a5-ZkP" id="glI-x7-OFN"/>
+                        <outlet property="imgvUser" destination="7Ym-2O-aFD" id="kBg-Fm-rzg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

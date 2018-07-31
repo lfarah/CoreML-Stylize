@@ -1,0 +1,21 @@
+PODS:
+  - EZSwiftExtensions (1.11)
+
+DEPENDENCIES:
+  - EZSwiftExtensions (from `https://github.com/goktugyil/EZSwiftExtensions.git`)
+
+EXTERNAL SOURCES:
+  EZSwiftExtensions:
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+CHECKOUT OPTIONS:
+  EZSwiftExtensions:
+    :commit: 4536c10b8b60cace968f9bd9384e0886f79c1fa1
+    :git: https://github.com/goktugyil/EZSwiftExtensions.git
+
+SPEC CHECKSUMS:
+  EZSwiftExtensions: 9d3dc8a51818e2fbfd11099b38a2c47d0ca693d0
+
+PODFILE CHECKSUM: d18fe025128fcd9c47746a96c9a37368934b8b6e
+
+COCOAPODS: 1.5.0
